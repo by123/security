@@ -66,7 +66,6 @@ typedef void (^IDSAlertSheetCallback)(NSInteger index);
  *
  *  @param title  显示文本.
  *  @param icon   文本icon.
- *  @param image  文本背景.
  *  @param titles 需要展示的 Button 上面的文本信息.
  */
 - (instancetype)initWithTitle:(NSString *)title titleIcon:(UIImage *)icon buttonTitles:(NSArray *)titles;

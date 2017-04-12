@@ -15,6 +15,7 @@
 #import "HttpRequest.h"
 
 
+#define JPUSH_KEY @"2a47a9dfb4d0084bb51d7ee3"
 #define BAIDU_AK  @"mMrFYCGKUh5KUI5hgKS1WfTDESioqVGH"
 #define BACKGROUND_COLOR [UIColor whiteColor]
 

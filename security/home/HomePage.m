@@ -141,7 +141,7 @@
     [_mapView addOverlay:polyline];
 }
 
-//折现属性
+//折线属性
 - (BMKOverlayView *)mapView:(BMKMapView *)mapView viewForOverlay:(id <BMKOverlay>)overlay{
     if ([overlay isKindOfClass:[BMKPolyline class]]){
         BMKPolylineView* polylineView = [[BMKPolylineView alloc] initWithOverlay:overlay];
@@ -151,5 +151,21 @@
     }
     return nil;
 }
+
+
+-(void)test
+{
+
+    NSString *url = @"https://dx.10086gg.cn/sms-partner/access/18680686420/sendsms";
+    [HttpRequest post:url params:nil success:^(id  _Nullable responseObject) {
+        
+    } fail:^(NSError * _Nonnull error) {
+        
+    }];
+
+}
+
+
+
 
 @end
